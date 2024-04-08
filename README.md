@@ -53,7 +53,7 @@ console.log(`Is valid Saudi ID: ${idIsInvalid}`); // Outputs: false
 console.log(validateSaudiID(valid_id))
 // Output:
 // {
-//   valid: true,
+//   isValid: true,
 //   id: '1010101010',
 //   type: { ar: 'هوية وطنية', en: 'National ID' }
 // }
@@ -73,20 +73,21 @@ console.log(`Is valid Saudi mobile number: ${mobileIsValid}`); // Outputs: true 
 
 **Saudi-Validator** simplifies the validation of Saudi-specific data formats. Below are the main functions provided:
 
-### `isValidID(id: string): boolean`
+### `validateSaudiID(input: string | number): SaudiIDType`
 
 Validates whether the given string is a valid Saudi ID.
+Returns an object with `isValid`.
 
 - **Parameters**:
-  - `id`: A string representing the Saudi ID to be validated.
-- **Returns**: `true` if the ID is valid, otherwise `false`.
+  - `input`: A string representing the Saudi ID to be validated.
+- **Returns**: Object with `isValid` property indicateing `true` if the ID is valid, otherwise `false`.
 
-### `isValidMobile(number: string): boolean`
+### `validateSaudiID(input: string | number): SaudiPhoneType`
 
 Validates whether the given string is a valid Saudi mobile number.
 
 - **Parameters**:
-  - `number`: A string representing the Saudi mobile number to be validated.
-- **Returns**: `true` if the mobile number is valid, otherwise `false`.
+  - `input`: A string representing the Saudi phone/mobile number to be validated.
+- **Returns**: Object with `isValid` property indicateing `true` if the mobile number is valid, otherwise `false`.
 
 These functions aim to provide a straightforward interface for validating Saudi IDs and mobile numbers, ensuring compliance with local standards and formats.
