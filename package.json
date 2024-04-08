@@ -1,0 +1,34 @@
+{
+  "name": "saudi-validator",
+  "description": "A Saudi National ID validator",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "format": "prettier --write ./src",
+    "build": "pnpm run format && tsc && vite build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^20.12.4",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "rollup-plugin-typescript-paths": "^1.5.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vitest": "^1.4.0"
+  },
+  "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa"
+}
