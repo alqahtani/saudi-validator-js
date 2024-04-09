@@ -1,13 +1,14 @@
-![Logo]('https://raw.githubusercontent.com/alqahtani/saudi-validator-js/main/saudi-js.png')
+![Logo](https://raw.githubusercontent.com/alqahtani/saudi-validator-js/main/saudi-js.png)
 
 ![version badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falqahtani%2Fsaudi-validator-js%2Fmain%2Fpackage.json&query=%24.version&label=version)
 ![License](https://img.shields.io/npm/l/saudi-validator)
 
----
-## About
+# Saudi Validator
+
+### About
 **Saudi-Validator** is a toolkit to verify Saudi specific formats, like: id, phone and mobile numbers.
 
-## Why
+### Why
 To ensures data integrity and compliance with Saudi Arabia’s official formats, making it an essential tool for developers targeting the Saudi market. It offers:
 
 - **Accuracy**: Matches Saudi standards for ID and phone numbers.
