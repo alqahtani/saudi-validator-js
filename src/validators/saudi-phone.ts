@@ -18,24 +18,6 @@ import { SaudiPhoneType } from '../../types'
 export const validateSaudiPhone = (input: string | number): SaudiPhoneType => {
     const phone = prepareNumericInput(input)
 
-    // Check if the phone is in a valid format
-    if (!isNumeric(phone)) {
-        return {
-            isValid: false,
-            input: input as string,
-            provider: {
-                name: {
-                    en: 'Unknown',
-                    ar: 'غير معروف',
-                },
-            },
-            reason: {
-                en: 'Invalid phone number',
-                ar: 'رقم هاتف غير صالح',
-            },
-        }
-    }
-
     // Credits for this regix to @homaily in this gist:
     // https://gist.github.com/homaily/8672499
     const mobile_regex = new RegExp(
