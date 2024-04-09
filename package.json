@@ -2,7 +2,7 @@
     "name": "saudi-validator",
     "description": "A Saudi National ID validator",
     "private": false,
-    "version": "0.0.1",
+    "version": "1.0.0",
     "type": "module",
     "exports": {
         ".": {
@@ -32,20 +32,20 @@
     },
     "packageManager": "pnpm@8.15.6+sha1.8105075ad0aa306138be128c017e9c41e28ecffa",
     "keywords": [
-      "saudi arabia",
-      "saudi id validator",
-      "saudi id",
-      "id validator",
-      "mobile number validator",
-      "saudi mobile number",
-      "saudi phone number",
-      "saudi national",
-      "saudi national id",
-      "iqama",
-      "iqama id",
-      "iqama id validator",
-      "border number",
-      "border number validator"
+        "saudi arabia",
+        "saudi id validator",
+        "saudi id",
+        "id validator",
+        "mobile number validator",
+        "saudi mobile number",
+        "saudi phone number",
+        "saudi national",
+        "saudi national id",
+        "iqama",
+        "iqama id",
+        "iqama id validator",
+        "border number",
+        "border number validator"
     ],
     "author": "Ahmed AlQahtani",
     "license": "MIT"
