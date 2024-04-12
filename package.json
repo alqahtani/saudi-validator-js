@@ -4,6 +4,11 @@
     "private": false,
     "version": "1.0.0",
     "type": "module",
+    "homepage": "https://github.com/alqahtani/saudi-validator-js.git#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alqahtani/saudi-validator-js.git"
+    },
     "exports": {
         ".": {
             "require": "./dist/index.cjs",
