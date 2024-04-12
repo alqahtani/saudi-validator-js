@@ -2,7 +2,7 @@
     "name": "saudi-validator",
     "description": "A Saudi IDs and Phone numbers validator",
     "private": false,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "homepage": "https://github.com/alqahtani/saudi-validator-js.git#readme",
     "repository": {
