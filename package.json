@@ -1,6 +1,6 @@
 {
     "name": "saudi-validator",
-    "description": "A Saudi National ID validator",
+    "description": "A Saudi IDs and Phone numbers validator",
     "private": false,
     "version": "1.0.1",
     "type": "module",
